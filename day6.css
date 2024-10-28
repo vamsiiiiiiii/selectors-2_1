@@ -1,0 +1,106 @@
+/* #div1 p{
+    background-color: red;
+} */
+
+
+/* div > p{
+    background-color: yellow;
+} */
+
+
+/* div{
+    width: 300px;
+    height: auto;
+}
+div > img{
+    width: 100%;
+    height: 65%;
+} */
+
+
+/* div p{
+    background-color: red;
+} */
+/* div > p{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+}
+div ~ p{
+    background-color: purple;
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 40px;
+    border-radius: 50px;
+    background-image: url("../../../../bahubali.png");
+} */
+
+
+/* div + p{
+    text-decoration: none;
+    background-color: orange;
+    font-size: 25px;
+    border-radius: 30px;
+} */
+
+/* h2[id="a"]{
+    background-color: purple;
+} */
+
+/* img[width="400"]{
+    border-radius: 50%;
+    padding: 30px;
+    border: 2px solid black;
+} */
+
+/* div[id="container"] > img{
+    width: 500px;
+    border-radius: 30px;
+    border: 2px solid black;
+} */
+
+/* 
+a[href^="https"]
+{
+    background-color: yellow;
+}
+
+h1[href="https://www.google.com"]
+{
+    background-color: red;
+} */
+
+
+/* h1[id="a"][class="b"]{
+    background-color: red;
+} */
+
+
+:root{
+    --primaryColor:lightgray;
+    --secondatColor:blue;
+    --fontWeight:bolder;
+}
+header{
+    background-color: var(--primaryColor);
+    color: var(--secondatColor);
+    font-weight: var(--fontWeight);
+}
+header,footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+div{
+    background-color: var(--secondatColor);
+}
+h2{
+    font-weight: var(--fontWeight);
+    color: var(--primaryColor);
+    background-color: var(--secondatColor);
+}
+li{
+    font-weight: var(--fontWeight);
+}
+
